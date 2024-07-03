@@ -1,0 +1,27 @@
+{
+  "name": "bom",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "element-plus": "^2.7.2",
+    "file-saver": "^2.0.5",
+    "mitt": "^3.0.1",
+    "socket.io-client": "^4.7.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vuejs-dialog": "^1.4.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8",
+    "vue-cli-plugin-element-plus": "~0.0.13"
+  },
+  "type": "module"
+}
